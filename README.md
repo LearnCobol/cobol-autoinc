@@ -12,7 +12,10 @@ or
 
     curl -si http://localhost:9080/~vagrant/cobol/autoinc.cgi  # from the host machine
 
-To compile:
+## To Compile
 ```
 cobc -x -free -o autoinc.cgi autoinc.cbl
 ```
+
+## In Action
+![](cobol-autoinc.png)
